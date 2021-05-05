@@ -1,4 +1,2 @@
 node_modules/
-cypress/videos
 .DS_Store
-cypress/screenshots

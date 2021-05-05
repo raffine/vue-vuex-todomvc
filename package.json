@@ -10,15 +10,7 @@
     "prestart": "npm run reset:database",
     "start": "json-server data.json --static . --middlewares ./node_modules/json-server-reset",
     "poststart": "npm run reset:database",
-    "pretest": "npm run lint",
-    "lint": "standard '*.js' 'cypress/integration/*.js'",
-    "prelint": "prettier-standard '*.js' 'cypress/integration/*.js'",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "cy:run:record": "cypress run --record",
-    "cy:verify": "cypress verify",
-    "reset:database": "echo '{\"todos\":[]}\n' > data.json",
-    "dev": "start-test 3000 cy:open"
+    "reset:database": "echo '{\"todos\":[]}\n' > data.json"
   },
   "repository": {
     "type": "git",
@@ -36,7 +28,6 @@
     "todomvc-common": "1.0.5"
   },
   "devDependencies": {
-    "cypress": "7.2.0",
     "json-server-reset": "1.3.0",
     "prettier-standard": "16.4.1",
     "standard": "12.0.1",

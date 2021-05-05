@@ -5,7 +5,7 @@ and [Vuex](https://vuex.vuejs.org/en/) data store.
 
 Based on [this Vuex tutorial](https://codeburst.io/build-a-simple-todo-app-with-vue-js-1778ae175514) and the basic official [TodoMVC vue.js example](https://github.com/vuejs/vue/tree/dev/examples/todomvc)
 
-Read my [step by step tutorial](https://glebbahmutov.com/blog/vue-vuex-rest-todomvx/) explaining the code and this [thorough blogpost](https://www.cypress.io/blog/2017/11/28/testing-vue-web-application-with-vuex-data-store-and-rest-backend/) how this application is tested using Cypress.
+Read my [step by step tutorial](https://glebbahmutov.com/blog/vue-vuex-rest-todomvx/) explaining the code.
 
 ## Software organization
 
@@ -21,14 +21,6 @@ npm start
 ```
 
 Open `localhost:3000` in the browser.
-
-## Tests
-
-All tests are implemented using [Cypress.io](https://www.cypress.io/)
-
-- [GUI E2E tests](cypress/integration/ui-spec.js)
-- [API tests](cypress/integration/api-spec.js)
-- [Vuex store tests](cypress/integration/store-spec.js)
 
 ## Development
 
