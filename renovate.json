@@ -1,9 +1,0 @@
-{
-  "extends": ["config:base"],
-  "automerge": true,
-  "masterIssue": true,
-  "timezone": "America/New_York",
-  "schedule": [
-    "every weekend"
-  ]
-}

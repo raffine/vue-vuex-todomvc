@@ -1,4 +1,4 @@
-# vue-vuex-todomvc [![renovate-app badge][renovate-badge]][renovate-app] [![ci status][ci image]][ci url]
+# vue-vuex-todomvc
 
 Simple TodoMVC with [Vue.js](https://vuejs.org/)
 and [Vuex](https://vuex.vuejs.org/en/) data store.
